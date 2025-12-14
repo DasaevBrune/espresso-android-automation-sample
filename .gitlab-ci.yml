@@ -1,0 +1,42 @@
+image: openjdk:17-jdk
+
+variables:
+  ANDROID_COMPILE_SDK: "34"
+  ANDROID_BUILD_TOOLS: "34.0.0"
+  ANDROID_SDK_TOOLS: "9477386"
+
+stages:
+  - build
+  - test
+
+before_script:
+  - apt-get --quiet update --yes
+  - apt-get --quiet install --yes wget tar unzip lib32stdc++6 lib32z1
+  - export ANDROID_HOME="${PWD}/android-home"
+  - install -d $ANDROID_HOME
+  - wget --quiet --output-document=$ANDROID_HOME/cmdline-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-${ANDROID_SDK_TOOLS}_latest.zip
+  - unzip -d $ANDROID_HOME/cmdline-tools $ANDROID_HOME/cmdline-tools.zip
+  - mv $ANDROID_HOME/cmdline-tools/cmdline-tools $ANDROID_HOME/cmdline-tools/latest
+  - export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
+  - echo y | sdkmanager "platforms;android-${ANDROID_COMPILE_SDK}" "build-tools;${ANDROID_BUILD_TOOLS}"
+
+build_debug:
+  stage: build
+  script:
+    - ./gradlew assembleDebug
+
+# Mocking the connected test for demonstration since full emulator setup is heavy
+# In a real environment with KVM enabled runners:
+# 1. Install system-images;android-30;google_apis;x86_64
+# 2. avdmanager create avd -n test -k "system-images;android-30;google_apis;x86_64"
+# 3. emulator -avd test -no-window -no-audio &
+# 4. ./gradlew connectedDebugAndroidTest
+test_instrumentation_placeholder:
+  stage: test
+  script:
+    - echo "Running instrumentation tests (mock)..."
+    - ./gradlew lintDebug
+    - ./gradlew testDebugUnitTest
+  artifacts:
+    reports:
+      junit: app/build/test-results/testDebugUnitTest/TEST-*.xml

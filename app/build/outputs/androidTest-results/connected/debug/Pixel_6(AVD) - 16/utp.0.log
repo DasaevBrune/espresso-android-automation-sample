@@ -1,0 +1,43 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.example.espressoautomationsample"
+    test_package: "com.example.espressoautomationsample.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.example.espressoautomationsample/additional_test_output"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: Configuring AndroidTestApkInstallerPlugin: apks_to_install {
+  apk_paths: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/apk/debug/app-debug.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+apks_to_install {
+  apk_paths: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/apk/debug/app-debug.apk] on device emulator-5554.
+INFO: Installing [/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk] on device emulator-5554.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Copying files from device to host: /sdcard/Android/media/com.example.espressoautomationsample/additional_test_output to /Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/connected_android_test_additional_output/debugAndroidTest/connected/Pixel_6(AVD) - 16
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.example.espressoautomationsample for device emulator-5554.
+INFO: Uninstalling com.example.espressoautomationsample.test for device emulator-5554.
+INFO: Execute com.example.espressoautomationsample.EspressoSystemTest.click_item_opens_detail_with_correct_title: PASSED
+INFO: Execute com.example.espressoautomationsample.EspressoSystemTest.login_invalid_shows_error_and_stays_on_login: PASSED
+INFO: Execute com.example.espressoautomationsample.EspressoSystemTest.favorite_persists_for_item: PASSED
+INFO: Execute com.example.espressoautomationsample.EspressoSystemTest.login_success_navigates_to_items: PASSED
+INFO: Execute com.example.espressoautomationsample.EspressoSystemTest.scroll_and_open_item_15: PASSED

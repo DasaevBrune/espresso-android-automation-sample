@@ -1,0 +1,301 @@
+# proto-message: google.testing.platform.proto.api.core.TestSuiteResult
+# 2025-12-14T01:19:24.735270Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 5
+  device {
+    id: "emulator-5554"
+    friendly_name: "primary"
+  }
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "EspressoSystemTest"
+    test_package: "com.example.espressoautomationsample"
+    test_method: "click_item_opens_detail_with_correct_title"
+    start_time {
+      seconds: 1765675133
+      nanos: 991000000
+    }
+    end_time {
+      seconds: 1765675140
+      nanos: 761000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/logcat-com.example.espressoautomationsample.EspressoSystemTest-click_item_opens_detail_with_correct_title.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EspressoSystemTest"
+    test_package: "com.example.espressoautomationsample"
+    test_method: "login_invalid_shows_error_and_stays_on_login"
+    start_time {
+      seconds: 1765675142
+      nanos: 363000000
+    }
+    end_time {
+      seconds: 1765675146
+      nanos: 98000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/logcat-com.example.espressoautomationsample.EspressoSystemTest-login_invalid_shows_error_and_stays_on_login.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EspressoSystemTest"
+    test_package: "com.example.espressoautomationsample"
+    test_method: "favorite_persists_for_item"
+    start_time {
+      seconds: 1765675146
+      nanos: 164000000
+    }
+    end_time {
+      seconds: 1765675152
+      nanos: 31000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/logcat-com.example.espressoautomationsample.EspressoSystemTest-favorite_persists_for_item.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EspressoSystemTest"
+    test_package: "com.example.espressoautomationsample"
+    test_method: "login_success_navigates_to_items"
+    start_time {
+      seconds: 1765675153
+      nanos: 317000000
+    }
+    end_time {
+      seconds: 1765675156
+      nanos: 188000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/logcat-com.example.espressoautomationsample.EspressoSystemTest-login_success_navigates_to_items.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EspressoSystemTest"
+    test_package: "com.example.espressoautomationsample"
+    test_method: "scroll_and_open_item_15"
+    start_time {
+      seconds: 1765675157
+      nanos: 600000000
+    }
+    end_time {
+      seconds: 1765675160
+      nanos: 889000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/logcat-com.example.espressoautomationsample.EspressoSystemTest-scroll_and_open_item_15.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/dasaev/Documents/repos/espresso-android-automation-sample/app/build/outputs/androidTest-results/connected/debug/Pixel_6(AVD) - 16/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

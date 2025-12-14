@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.espressoautomationsample.EspressoSystemTest" tests="5" failures="0" errors="0" skipped="0" time="30.136" timestamp="2025-12-14T01:19:24" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_6(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="click_item_opens_detail_with_correct_title" classname="com.example.espressoautomationsample.EspressoSystemTest" time="6.689" />
+  <testcase name="login_invalid_shows_error_and_stays_on_login" classname="com.example.espressoautomationsample.EspressoSystemTest" time="3.805" />
+  <testcase name="favorite_persists_for_item" classname="com.example.espressoautomationsample.EspressoSystemTest" time="5.861" />
+  <testcase name="login_success_navigates_to_items" classname="com.example.espressoautomationsample.EspressoSystemTest" time="2.913" />
+  <testcase name="scroll_and_open_item_15" classname="com.example.espressoautomationsample.EspressoSystemTest" time="3.3" />
+</testsuite>

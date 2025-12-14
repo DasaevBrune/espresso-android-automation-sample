@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-debug-31:/drawable_ic_launcher.xml.flat",
+        "source": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-main-33:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-debug-31:/layout_activity_detail.xml.flat",
+        "source": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-main-33:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.example.espressoautomationsample.app-debug-31:/layout_item_row.xml.flat",
+        "source": "com.example.espressoautomationsample.app-main-33:/layout/item_row.xml"
+    },
+    {
+        "merged": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-debug-31:/layout_item_row.xml.flat",
+        "source": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-main-33:/layout/item_row.xml"
+    },
+    {
+        "merged": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-debug-31:/layout_activity_items.xml.flat",
+        "source": "/Users/dasaev/.gradle/daemon/8.11.1/com.example.espressoautomationsample.app-main-33:/layout/activity_items.xml"
+    }
+]
