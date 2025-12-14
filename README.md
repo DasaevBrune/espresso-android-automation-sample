@@ -45,6 +45,13 @@ Execute the following command in terminal to run all instrumentation tests:
 4.  `scroll_and_open_item_15`: Scrolling to off-screen elements.
 5.  `favorite_persists_for_item`: End-to-end data persistence check.
 
+Test run evidence
+
+✅ 5/5 instrumentation tests passing (Pixel 6 emulator)
+
+Report screenshot: /docs/test-report.png
+
+
 ## CI/CD Pipeline
 
 A sample `.gitlab-ci.yml` is included to demonstrate how these tests could be run in a headless environment. 
